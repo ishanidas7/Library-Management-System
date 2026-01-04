@@ -1,18 +1,51 @@
-## Getting Started
+# 📚 Library Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A **console-based Library Management System** developed using **Java and MySQL**, designed to manage books and staff records efficiently through an admin-controlled interface.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🚀 Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- 🔐 **Admin Login Authentication**
+- 📘 **Book Management**
+  - View books
+  - Add books
+  - Update books
+  - Remove books
+- 👥 **Staff Management**
+  - View staff
+  - Add staff
+  - Update staff
+  - Remove staff
+- ✅ **Input Validation & Exception Handling**
+- 🗄️ **MySQL Database Integration using JDBC**
+- 🧩 **Modular & Clean Code Architecture**
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🛠️ Technologies Used
 
-## Dependency Management
+- **Java**
+- **MySQL**
+- **JDBC (MySQL Connector/J)**
+- **VS Code**
+- **Git & GitHub**
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 🧱 Project Structure
+
+LibraryManagementSystem/
+├─ src/
+│ ├─ db/
+│ │ └─ DBConnection.java
+│ ├─ service/
+│ │ ├─ BookService.java
+│ │ └─ StaffService.java
+│ ├─ util/
+│ │ └─ InputValidator.java
+│ └─ Main.java
+├─ lib/
+│ └─ mysql-connector-j-9.x.x.jar
+├─ bin/
+├─ README.md
